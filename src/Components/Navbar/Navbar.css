@@ -1,0 +1,72 @@
+.logo{
+    height: 70px;
+    aspect-ratio: 1/1;
+}
+ .nav-link{
+    color: var(--text-color) !important;
+    font-size: 21px !important;
+    position: relative;
+ } 
+ nav{
+    background-color: var(--bgnavFooter);
+ }
+ .active{
+    color: var(--active) !important;
+    font-weight:bolder !important;
+  }
+  .nav-link.active::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background-color: var(--active);
+ } 
+ .nav-mob ul{
+   list-style: none;
+   background-color:var(--bgnavFooter);
+   width: 300px;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: -100%;
+   z-index: 99999;
+   transition: .4s;
+   padding:  25px;
+ }
+ .tabka{
+  background-color: var(--tabka);
+   z-index: 999999999;
+ }
+ .nav-mob ul.showMenu{
+   left: 0% !important;
+ }
+ .nav-mob li{
+  width: fit-content;
+ }
+ .menu{
+   width: 30px;
+   height: 30px;
+ }
+ .menu span{
+   width: 100%;
+   height: 5px;
+   display: block;
+   margin-bottom: 2px;
+   background-color: var(--text-color);
+   transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
+   overflow: hidden;
+   position: relative;
+ }
+ .menu span.one{
+   transform: rotate(50deg);
+   transform-origin:top left ;
+ }
+ .menu span.two{
+   display: none;
+ }
+ .menu span.three{
+   transform: rotate(-50deg);
+   transform-origin:bottom left ;
+ }

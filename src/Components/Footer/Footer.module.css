@@ -1,0 +1,41 @@
+.footer {
+  background-color: var(--bgnavFooter); /* لون خلفية هادئ */
+  color: var(--text-color); /* لون نص */
+  padding: 20px 0; /* مسافة داخلية */
+  border-top: 2px solid var(--active); /* إطار ذهبي */
+  text-align: center; /* توسيط النص */
+}
+
+.quote {
+  font-size: 1.2rem; /* حجم خط أكبر للاقتباس */
+  font-family: 'Cairo', sans-serif; /* استخدم خط عربي جميل */
+  margin-top: 10px; /* مسافة بين النصوص */
+}
+
+.socialIcons {
+  margin-top: 15px; 
+}
+
+.icon {
+  margin: 0 10px; 
+  font-size: 1.5rem; 
+}
+.icon i{
+
+  transition: all 0.3s; 
+}
+.icon:first-child{
+  color: rgb(13, 81, 137);
+
+}
+.icon:nth-child(2){
+  color: rgb(161, 22, 136);
+
+}
+.icon:last-child{
+  color: rgb(5, 112, 55);
+
+}
+.icon:hover i{
+  transform: translateY(5px) scale(1.1);
+}

@@ -1,0 +1,28 @@
+
+.btnn{
+    width: 60% !important;
+    display: block;
+
+    }
+  .x{
+    width: 80%;
+
+  }  
+@media screen and (max-width:768px){
+    .btnn{
+        width: 100% !important;
+        }
+        .x{
+            width: 60%;
+        
+          }  
+}
+@media screen and (max-width:480px){
+    .btnn{
+        width: 100% !important;
+        }
+        .x{
+            width: 50%;
+        
+          }  
+}

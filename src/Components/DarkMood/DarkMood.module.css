@@ -1,0 +1,23 @@
+
+.theme{
+  width: 24px;
+  height: 24px;
+  background-color: var(--text-color); 
+  box-shadow: 1px 2px 3px var( --mood);
+  position: absolute;
+  left: 4%;
+  top: 2%;
+}
+@media screen and (min-width:992px) {
+  .theme{
+    position: fixed ;
+    left: 10px;
+    top:18%;
+  }
+}
+.moon{
+  color: azure;
+}
+.sun{
+  color: rgba(56, 56, 53, 0.947);
+}

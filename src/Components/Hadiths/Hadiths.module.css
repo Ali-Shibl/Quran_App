@@ -1,0 +1,12 @@
+.readercard {
+  border: 1px solid var(--text-color);
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+  transition: box-shadow 0.3s;
+}
+
+.readercard:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

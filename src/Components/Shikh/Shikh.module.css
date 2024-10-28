@@ -1,0 +1,25 @@
+
+
+.ayahscontainer {
+    background-color: var(--bg-box);
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+
+}
+
+.ayah {
+ font-size: 20px;
+  transition: background-color 0.3s;
+}
+
+.audioplayer {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.btn {
+    font-size: 1.1em;
+    font-weight: bold;
+}

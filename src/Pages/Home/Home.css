@@ -1,0 +1,55 @@
+  .header {
+    background: url('../../assets/background.webp') no-repeat center center;
+    background-size: cover;
+    height: calc(100vh - 102px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white
+  }
+  @media screen and (min-width:550px){
+    .header {
+      background-size: cover;
+      height: calc(65vh - 102px);
+    
+   
+    }
+  }
+  @media screen and (min-width:768px){
+    .header {
+      background-size: cover;
+      height: calc(53vh - 102px);
+    
+   
+    }
+  }
+  @media screen and (min-width:992px){
+    .header {
+      background-size: cover;
+      height: calc(70vh - 102px);
+    
+   
+    }
+  }
+  
+  @media screen and (min-width:1200px){
+    .header {
+      background-size: cover;
+      height: calc(85vh - 102px);
+    
+   
+    }
+  }
+  
+  .header-content {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 15px; 
+    
+  }
+   .header-content p{
+ 
+   color: rgb(214, 214, 214); 
+  }
+

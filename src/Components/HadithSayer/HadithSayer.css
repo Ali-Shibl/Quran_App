@@ -1,0 +1,21 @@
+.texthadiht{
+    text-align: justify;
+    }
+    .pagination .page-link {
+      color: #000000 !important;
+    }
+    .page-link:focus {
+        z-index: 3;
+        color: var(--bs-pagination-focus-color);
+        background-color: var(--bs-pagination-focus-bg);
+        outline: 0;
+        box-shadow: none !important;
+    }
+    .pagination .page-link:hover {
+      color: #000000 !important;
+    }
+    .pagination .active > .page-link {
+      background-color: #15A397 
+      !important;
+      border-color:#15A397 !important
+    }

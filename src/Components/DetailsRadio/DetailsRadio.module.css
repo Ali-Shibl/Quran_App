@@ -1,0 +1,64 @@
+.audio{
+    height: 30px;
+    width: 80%;
+ }
+  .imgperson{
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    width: 100px;
+ }
+ .box{ position:sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background:var(--bg-box);
+    color: var(--text-color);
+   
+  } 
+@media screen and (min-width:768px){
+   
+
+    .box{
+        position: fixed;
+        top: 15%;
+        right: -100%;
+        transition: 1s all;
+        width: 50%;
+        box-shadow: 1px 2px 10px rgb(88, 88, 88);
+        border-radius: 10px;
+    }
+    .show{
+        right: 0;
+     }
+     .imgperson{
+        width: 100%;
+     }
+     .audio{
+        height: 40px;
+        width: 100%;
+     }
+     
+}
+@media screen and (min-width:992px){
+   
+
+    .box{
+        width: 40%;
+    }
+    
+     
+}
+@media screen and (min-width:1200px){
+   
+
+    .box{
+        width: 35%;
+    }
+    
+     
+}
+
+
+    
+
+
