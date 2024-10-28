@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Quran_App/static/css/main.e831c1fc.css",
+    "main.js": "/Quran_App/static/js/main.68d1bb27.js",
+    "static/media/fa-solid-900.ttf": "/Quran_App/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/Quran_App/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/Quran_App/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/Quran_App/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/Quran_App/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/background.webp": "/Quran_App/static/media/background.3fcd9868978db7a03023.webp",
+    "static/media/fa-regular-400.woff2": "/Quran_App/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/quran.webp": "/Quran_App/static/media/quran.d922053090baab4d1f4c.webp",
+    "static/media/xx.webp": "/Quran_App/static/media/xx.1b959064b408963ffc1e.webp",
+    "static/media/fa-v4compatibility.ttf": "/Quran_App/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Quran_App/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/Quran_App/index.html",
+    "main.e831c1fc.css.map": "/Quran_App/static/css/main.e831c1fc.css.map",
+    "main.68d1bb27.js.map": "/Quran_App/static/js/main.68d1bb27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e831c1fc.css",
+    "static/js/main.68d1bb27.js"
+  ]
+}
